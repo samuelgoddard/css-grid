@@ -15,7 +15,10 @@ body {
     display: grid;
     max-width: 100%;
     margin: 10px 0;
-    grid-gap: 10px;
+    justify-items: stretch;
+    align-items: stretch;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
 }
 
 @media only screen and (min-width: 1024px) {
